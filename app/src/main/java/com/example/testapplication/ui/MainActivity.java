@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbarMain;
 
 
-    private String clientId="3a81bac635399caf9080";
-    private String clientSecret="dcfb4fcc1441a75ee185310610084ee565eb3de9";
-    private String redirectUri="https:TestApplication://callback";
+    private String clientId="b08401b6df653188c6fe";
+    private String clientSecret="cbbb0430e7b4c13cacb567f1f83392f2c7ee3ccd";
+    private String redirectUri="http://localhost8080/callback";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/login/oauth/authorize"
                         +"?client_id"+clientId+"&scope=repo&redirect_uri="+redirectUri));
                 startActivity(intent);
-                showGitHubRepository();
+
 
             }
         });
 
-
+        showGitHubRepository();
 
     }
     @Override

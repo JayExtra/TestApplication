@@ -1,5 +1,9 @@
 package com.example.testapplication.api.model.service.model2;
 
+/**
+ * Created by JayExtra on 4/20/19
+ */
+
 public class User {
 
     private Integer id;

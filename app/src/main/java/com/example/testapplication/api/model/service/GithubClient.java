@@ -12,6 +12,10 @@ import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 
+/**
+ * Created by JayExtra on 4/20/19
+ */
+
 public interface GithubClient {
     //sends json response
     @Headers("Accept: application/json")
