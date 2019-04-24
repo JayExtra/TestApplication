@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.example.testapplication.R;
-import com.example.testapplication.api.model.GithubRepo;
+import com.example.testapplication.api.model.service.model2.GithubRepo;
 
 import java.util.List;
 

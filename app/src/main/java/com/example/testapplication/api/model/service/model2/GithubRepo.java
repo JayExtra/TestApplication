@@ -1,4 +1,4 @@
-package com.example.testapplication.api.model;
+package com.example.testapplication.api.model.service.model2;
 
 public class GithubRepo {
 
